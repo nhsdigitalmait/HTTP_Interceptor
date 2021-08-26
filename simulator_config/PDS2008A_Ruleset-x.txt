@@ -1,0 +1,180 @@
+# PDS2008A Simulator rule definition file for ITK Testbench
+# Richard Robinson, 19th February 2013
+#
+BEGIN RESPONSES
+no_ebXMLack_response class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.NoResponse
+QUPA_IN000007UK01_1902_Response TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000007UK01_sync_template.xml	200 urn:nhs:names:services:pdsquery/QUPA_IN000007UK01
+QUPA_IN000007UK01_Response TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000007UK01_sync_template1.xml	200 urn:nhs:names:services:pdsquery/QUPA_IN000007UK01
+QUPA_IN000007UK01_Response1 TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000007UK01_sync_template2.xml	200 urn:nhs:names:services:pdsquery/QUPA_IN000007UK01
+MCCI_IN010000UK13_async_response TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/MCCI_IN010000UK13_async_template.xml	202 urn:nhs:names:services:pdsquery/MCCI_IN010000UK13
+MCCI_IN010000UK13_sync_response TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/MCCI_IN010000UK13_sync_template.xml	200 urn:nhs:names:services:pds/MCCI_IN010000UK13
+QUPA_IN000011UK02_response TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000011UK02_async_template.xml	202 urn:nhs:names:services:pdsquery/QUPA_IN000011UK02
+QUPA_IN000011UK02_response1 TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000011UK02_async_template1.xml	202 urn:nhs:names:services:pdsquery/QUPA_IN000011UK02
+QUPA_IN000007UK01_neg TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUQI_IN010000UK14_sync_template.xml	200	urn:nhs:names:services:pdsquery/QUQI_IN010000UK14
+QUQI_IN010000UK14_Response TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUQI_IN010000UK14_sync_template1.xml	200	urn:nhs:names:services:pdsquery/QUQI_IN010000UK14
+PRPA_IN000203UK03_pos TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/PRPA_IN000202UK01_async_template.xml	202 urn:nhs:names:services:pds/PRPA_IN000202UK01
+QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Response TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000009UK03_sync_template.xml 200 urn:nhs:names:services:pdsquery/QUPA_IN000009UK03
+QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Response1 TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000009UK03_sync_template1.xml 200 urn:nhs:names:services:pdsquery/QUPA_IN000009UK03
+QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Response2 TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000009UK03_sync_template2.xml 200 urn:nhs:names:services:pdsquery/QUPA_IN000009UK03
+QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Response3 TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000009UK03_sync_template3.xml 200 urn:nhs:names:services:pdsquery/QUPA_IN000009UK03
+QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Response4 TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000009UK03_sync_template4.xml 200 urn:nhs:names:services:pdsquery/QUPA_IN000009UK03
+QUPA_IN000008UK02_QUQI_IN010000UK14_Response TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUQI_IN010000UK14_sync_template.xml 200 urn:nhs:names:services:pdsquery/QUQI_IN010000UK14
+QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Response TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000015UK02_sync_template.xml 200 urn:nhs:names:services:pdsquery/QUPA_IN000015UK02
+QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Response1 TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000015UK02_sync_template1.xml 200 urn:nhs:names:services:pdsquery/QUPA_IN000015UK02
+QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Response2 TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000015UK02_sync_template2.xml 200 urn:nhs:names:services:pdsquery/QUPA_IN000015UK02
+QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Response3 TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000015UK02_sync_template3.xml 200 urn:nhs:names:services:pdsquery/QUPA_IN000015UK02
+QUPA_IN000014UK01_QUQI_IN010000UK14_Response TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUPA_IN000014UK01_QUQI_IN010000UK14_sync_template.xml 200 urn:nhs:names:services:pdsquery/QUQI_IN010000UK14
+QUPA_IN000006UK02_QUQI_IN010000UK14_Response TKW_ROOT/config/SPINE_MTH/simulator_config/PDS2008A_Templates/QUQI_IN010000UK14_async_template.xml 200 urn:nhs:names:services:pdsquery/QUQI_IN010000UK14
+soap_fault	TKW_ROOT/config/SPINE_MTH/simulator_config/SoapFault_Template.xml	500
+ebXML_error	TKW_ROOT/config/SPINE_MTH/simulator_config/ebXMLError_template.xml	200 ebXMLerror
+do_process	NONE	0
+END RESPONSES
+
+BEGIN SUBSTITUTIONS
+__MESSAGEID__	UUID
+__CREATION_TIME__ HL7datetime
+__ORIG_MESSAGEID__ Xpath /soap:Envelope/soap:Body/child::*/hl7:id/@root
+__SYNC_RCV_ASID__ Xpath /soap:Envelope/soap:Header/hl7:communicationFunctionSnd/hl7:device/hl7:id/@extension
+__SYNC_SND_ASID__ Xpath /soap:Envelope/soap:Header/hl7:communicationFunctionRcv/hl7:device/hl7:id/@extension
+__ASYNC_RCV_ASID__ Xpath //hl7:communicationFunctionSnd/hl7:device/hl7:id/@extension
+__JOBID__	UUID
+__SOAP_ERROR_FAULTCODE_REQUIRED__	Literal	soap:Client
+__SOAP_ERROR_FAULTSTRING_REQUIRED__	Literal	The service/interaction is not supported for the requested URI
+__SOAP_ERROR_CODECONTEXT__ Literal urn:nhs:names:errors:tms
+__SOAP_ERROR_ERRORCODE__ Literal 101
+__SOAP_ERROR_SEVERITY__ Literal Error
+__SOAP_ERROR_LOCATION__ Literal HTTP Header - SOAPAction
+__SOAP_ERROR_DESCRIPTION__ Literal The service/interaction is not supported for the requested URI
+__MSGID_UUID__ UUID
+__ACKNOWLEDGED_MESSAGEID_XPATH__ Xpath /*[1]/hl7:id/@root
+__ORIGINAL_SND_XPATH__ Xpath soap:Envelope/soap:Body//hl7:communicationFunctionSnd/hl7:device/hl7:id/@extension
+__SIAB_ASID_SYSTEMPROPERTY__ Property mth.my.asid
+__CREATION_TIMESTAMP__ HL7datetime
+__ERROR_VALUE_CODE_LITERAL__ Literal GE002
+__ERROR_VALUE_CODESYSTEM_LITERAL__ Literal 2.16.840.1.113883.2.1.3.2.4.17.42
+__ERROR_VALUE_DISPLAYTEXT_LITERAL__ Literal Unexpected business error encountered.
+__SOAP_MSG_ID_UUID__ UUID
+__SENDER_END_POINT_XPATH__ Xpath /soap:Envelope/soap:Header/wsa:From/wsa:Address
+__RECEIVER_END_POINT_XPATH__ Xpath /soap:Envelope/soap:Header/wsa:To
+__INBOUND_SOAP_MSGID_XPATH__ Xpath /soap:Envelope/soap:Header/wsa:MessageID
+__CREATION_TIMESTAMP__ HL7datetime
+__ORIGINAL_MSGID_XPATH__ Xpath /soap:Envelope/soap:Body//hl7:id/@root
+__ERROR_LIST_ID__ UUID
+__EB_VERSION__ Literal 2.0
+__ERRORLIST_HIGHEST_SEVERITY_REQUIRED__ Literal Error
+__ERROR_ID__ UUID
+__ERROR_ERRORCODE_REQUIRED__ Literal 402005
+__ERROR_SEVERITY_REQUIRED__ Literal Error
+__ERROR_DESCRIPTION__ Literal An error occurred while finding the defined contract
+__ERROR_CODECONTEXT__ Literal urn:oasis:names:tc:ebxml-msg:service:errors
+END SUBSTITUTIONS
+
+BEGIN EXPRESSIONS
+PRPA_IN000205UK03_NoEbxmlAck_Rule 	XpathEquals /*[1]/hl7:ControlActEvent/hl7:subject/hl7:PdsRegistrationEvent/hl7:subject/hl7:patient/hl7:patientPerson/hl7:name/hl7:family SMITH2
+PRPA_IN000205UK03_EbxmlError_Rule 	XpathEquals /*[1]/hl7:ControlActEvent/hl7:subject/hl7:PdsRegistrationEvent/hl7:subject/hl7:patient/hl7:patientPerson/hl7:name/hl7:family SMITH3
+PRPA_IN000203UK03_NoEbxmlAck_1903_Rule 	XpathEquals /*[1]/hl7:ControlActEvent/hl7:subject/hl7:PdsUpdateRequest/hl7:subject/hl7:patientRole/hl7:id/@extension 9444459993
+PRPA_IN000203UK03_NoEbxmlAck_1904_Rule 	XpathEquals /*[1]/hl7:ControlActEvent/hl7:subject/hl7:PdsUpdateRequest/hl7:subject/hl7:patientRole/hl7:id/@extension 9444460037
+PRPA_IN000203UK03_NoEbxmlAck_1905_Rule 	XpathEquals /*[1]/hl7:ControlActEvent/hl7:subject/hl7:PdsUpdateRequest/hl7:subject/hl7:patientRole/hl7:id/@extension 9444460061
+PRPA_IN000203UK03_MCCI_IN010000UK13_1658_Rule XpathEquals /*[1]/hl7:ControlActEvent/hl7:subject/hl7:PdsUpdateRequest/hl7:subject/hl7:patientRole/hl7:id/@extension 9444459942
+PRPA_IN000200UK03_1412_1_Rule XpathEquals /*[1]/hl7:ControlActEvent/hl7:subject/hl7:PdsRegistrationRequest/hl7:subject/hl7:patientRole/hl7:patientPerson/hl7:birthTime/@value 20171004
+PRPA_IN000200UK03_NoEbxmlAck_1412_2_Rule XpathEquals /*[1]/hl7:ControlActEvent/hl7:subject/hl7:PdsRegistrationRequest/hl7:subject/hl7:patientRole/hl7:patientPerson/hl7:birthTime/@value 19970507
+QUPA_IN000006UK02_QUPA_IN000011UK02_Rule 	XpathEquals /*[1]/hl7:ControlActEvent/hl7:query/hl7:person.name/hl7:value/hl7:family O'Six-O'Clock
+QUPA_IN000006UK02_QUPA_IN000011UK02_Rule1 	XpathEquals /*[1]/hl7:ControlActEvent/hl7:query/hl7:person.name/hl7:value/hl7:family History
+QUPA_IN000006UK02_QUQI_IN010000UK14_Rule 	XpathEquals /*[1]/hl7:ControlActEvent/hl7:query/hl7:person.name/hl7:value/hl7:family Causley
+QUPA_IN000006UK02_MCCI_IN010000UK13_Rule 	XpathEquals /*[1]/hl7:ControlActEvent/hl7:query/hl7:person.name/hl7:value/hl7:family MCCI
+QUPA_IN000006UK02_SOAPFault_1911_Rule 	XpathEquals /*[1]/hl7:ControlActEvent/hl7:query/hl7:person.name/hl7:value/hl7:family LEGGETT
+QUPA_IN000006UK02_ebXMLError_1912_Rule 	XpathEquals /*[1]/hl7:ControlActEvent/hl7:query/hl7:person.name/hl7:value/hl7:family OLATUNJI
+QUPA_IN000005UK01_1902_Rule	XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000005UK01/hl7:ControlActEvent/hl7:query/hl7:person.name/hl7:value/hl7:family PURVES
+QUPA_IN000005UK01_Rule	XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000005UK01/hl7:ControlActEvent/hl7:query/hl7:person.name/hl7:value/hl7:family LEWINGTON
+QUPA_IN000005UK01_Rule1	XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000005UK01/hl7:ControlActEvent/hl7:query/hl7:person.name/hl7:value/hl7:family STAMBUKDELIFSCHITZ
+QUPA_IN000005UK01_Rule2	XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000005UK01/hl7:ControlActEvent/hl7:query/hl7:person.name/hl7:value/hl7:family History
+TEST_QUPA_IN000005UK01_NEG	XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000005UK01/hl7:ControlActEvent/hl7:query/hl7:person.name/hl7:value/hl7:family NOMATCH
+TEST_QUPA_IN000005UK01_SOAPFAULT	XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000005UK01/hl7:ControlActEvent/hl7:query/hl7:person.name/hl7:value/hl7:family SOAPFAULT
+TEST_QUPA_IN000005UK01_MCCI_IN010000UK13_rule	XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000005UK01/hl7:ControlActEvent/hl7:query/hl7:person.name/hl7:value/hl7:family MCCI
+TEST_PRPA_IN000203UK03_POS	XpathEquals /hl7:PRPA_IN000203UK03/hl7:ControlActEvent/hl7:subject/hl7:PdsUpdateRequest/hl7:subject/hl7:patientRole/hl7:id/@extension 9346424613
+QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Rule XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000008UK02/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 5552448715
+QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Rule1 XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000008UK02/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9449310742
+QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Rule2 XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000008UK02/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9449310602
+QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Rule3 XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000008UK02/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9449310580
+QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Rule4 XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000008UK02/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9449310300
+QUPA_IN000008UK02_QUQI_IN010000UK14_Rule XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000008UK02/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9407807542
+QUPA_IN000008UK02_SOAPFault_Rule XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000008UK02/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9444459993
+QUPA_IN000008UK02_SOAPFault_Rule1 XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000008UK02/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9449310734
+QUPA_IN000008UK02_MCCI_IN010000UK13_Rule XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000008UK02/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9346424613
+QUPA_IN000008UK02_MCCI_IN010000UK13_Rule1 XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000008UK02/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9449310106
+QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Rule XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000014UK01/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9449310645
+QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Rule1 XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000014UK01/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9449310580
+QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Rule2 XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000014UK01/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9449310106
+QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Rule3 XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000014UK01/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9449310734
+QUPA_IN000014UK01_QUQI_IN010000UK14_Rule XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000014UK01/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9448904053
+QUPA_IN000014UK01_SOAPFault_Rule XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000014UK01/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9444459993
+QUPA_IN000014UK01_MCCI_IN010000UK13_Rule XpathEquals /soap:Envelope/soap:Body/hl7:QUPA_IN000014UK01/hl7:ControlActEvent/hl7:query/hl7:person.id/hl7:value/@extension 9346424613
+passthrough	Always
+END EXPRESSIONS
+
+BEGIN RULE
+urn:nhs:names:services:pdsquery/QUPA_IN000005UK01
+if QUPA_IN000005UK01_1902_Rule then QUPA_IN000007UK01_1902_Response else next
+if QUPA_IN000005UK01_Rule then QUPA_IN000007UK01_Response else next
+if QUPA_IN000005UK01_Rule1 then QUPA_IN000007UK01_Response1 else next
+if QUPA_IN000005UK01_Rule2 then QUQI_IN010000UK14_Response else next
+if TEST_QUPA_IN000005UK01_NEG then QUPA_IN000007UK01_neg else next
+if TEST_QUPA_IN000005UK01_MCCI_IN010000UK13_rule then MCCI_IN010000UK13_sync_response else next
+if TEST_QUPA_IN000005UK01_SOAPFAULT then soap_fault
+END RULE
+
+BEGIN RULE
+urn:nhs:names:services:pds/PRPA_IN000203UK03
+if PRPA_IN000203UK03_NoEbxmlAck_1903_Rule then no_ebXMLack_response else next
+if PRPA_IN000203UK03_NoEbxmlAck_1904_Rule then ebXML_error else next
+if PRPA_IN000203UK03_NoEbxmlAck_1905_Rule then no_ebXMLack_response else next
+if PRPA_IN000203UK03_MCCI_IN010000UK13_1658_Rule then MCCI_IN010000UK13_async_response else next
+if TEST_PRPA_IN000203UK03_POS then PRPA_IN000203UK03_pos
+END RULE
+
+BEGIN RULE
+urn:nhs:names:services:pds/PRPA_IN000205UK03
+if PRPA_IN000205UK03_NoEbxmlAck_Rule then no_ebXMLack_response else next
+if PRPA_IN000205UK03_EbxmlError_Rule then ebXML_error else next
+END RULE
+
+BEGIN RULE
+urn:nhs:names:services:pds/PRPA_IN000200UK03
+if PRPA_IN000200UK03_1412_1_Rule then MCCI_IN010000UK13_async_response else next
+if PRPA_IN000200UK03_NoEbxmlAck_1412_2_Rule then no_ebXMLack_response
+END RULE
+
+BEGIN RULE
+urn:nhs:names:services:pdsquery/QUPA_IN000006UK02
+if QUPA_IN000006UK02_QUPA_IN000011UK02_Rule then QUPA_IN000011UK02_response else next
+if QUPA_IN000006UK02_QUPA_IN000011UK02_Rule1 then QUPA_IN000011UK02_response1 else next
+if QUPA_IN000006UK02_QUQI_IN010000UK14_Rule then QUPA_IN000006UK02_QUQI_IN010000UK14_Response else next
+if QUPA_IN000006UK02_MCCI_IN010000UK13_Rule then MCCI_IN010000UK13_async_response else next
+if QUPA_IN000006UK02_SOAPFault_1911_Rule then soap_fault else next
+if QUPA_IN000006UK02_ebXMLError_1912_Rule then ebXML_error
+END RULE
+
+BEGIN RULE
+urn:nhs:names:services:pdsquery/QUPA_IN000008UK02
+if QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Rule then QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Response else next
+if QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Rule1 then QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Response1 else next
+if QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Rule2 then QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Response2 else next
+if QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Rule3 then QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Response3 else next
+if QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Rule4 then QUPA_IN000008UK02_QUPA_IN000009UK03_Successful_Response4 else next
+if QUPA_IN000008UK02_SOAPFault_Rule then soap_fault else next
+if QUPA_IN000008UK02_SOAPFault_Rule1 then soap_fault else next
+if QUPA_IN000008UK02_MCCI_IN010000UK13_Rule then MCCI_IN010000UK13_sync_response else next
+if QUPA_IN000008UK02_MCCI_IN010000UK13_Rule1 then MCCI_IN010000UK13_sync_response else next
+if QUPA_IN000008UK02_QUQI_IN010000UK14_Rule then QUPA_IN000008UK02_QUQI_IN010000UK14_Response
+END RULE
+
+BEGIN RULE
+urn:nhs:names:services:pdsquery/QUPA_IN000014UK01
+if QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Rule then QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Response else next
+if QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Rule1 then QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Response1 else next
+if QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Rule2 then QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Response2 else next
+if QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Rule3 then QUPA_IN000014UK01_QUPA_IN000015UK02_Successful_Response3 else next
+if QUPA_IN000014UK01_SOAPFault_Rule then soap_fault else next
+if QUPA_IN000014UK01_MCCI_IN010000UK13_Rule then MCCI_IN010000UK13_sync_response else next
+if QUPA_IN000014UK01_QUQI_IN010000UK14_Rule then QUPA_IN000014UK01_QUQI_IN010000UK14_Response
+END RULE
